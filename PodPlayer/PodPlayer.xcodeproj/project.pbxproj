@@ -12,6 +12,8 @@
 		AAE037381F003A930059704A /* PodPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAE037361F003A930059704A /* PodPlayer.xcdatamodeld */; };
 		AAE0373A1F003A930059704A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE037391F003A930059704A /* Assets.xcassets */; };
 		AAE0373D1F003A930059704A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE0373B1F003A930059704A /* Main.storyboard */; };
+		AAE037471F003C760059704A /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE037461F003C760059704A /* SWXMLHash.swift */; };
+		AAE037491F003C7F0059704A /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE037481F003C7F0059704A /* SWXMLHash+TypeConversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AAE037391F003A930059704A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAE0373C1F003A930059704A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAE0373E1F003A930059704A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE037461F003C760059704A /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		AAE037481F003C7F0059704A /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		AAE037311F003A930059704A /* PodPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				AAE0374B1F003CE40059704A /* SWXMLHash */,
 				AAE037321F003A930059704A /* AppDelegate.swift */,
 				AAE037341F003A930059704A /* ViewController.swift */,
 				AAE037391F003A930059704A /* Assets.xcassets */,
@@ -62,6 +67,15 @@
 				AAE037361F003A930059704A /* PodPlayer.xcdatamodeld */,
 			);
 			path = PodPlayer;
+			sourceTree = "<group>";
+		};
+		AAE0374B1F003CE40059704A /* SWXMLHash */ = {
+			isa = PBXGroup;
+			children = (
+				AAE037461F003C760059704A /* SWXMLHash.swift */,
+				AAE037481F003C7F0059704A /* SWXMLHash+TypeConversion.swift */,
+			);
+			name = SWXMLHash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE037351F003A930059704A /* ViewController.swift in Sources */,
+				AAE037471F003C760059704A /* SWXMLHash.swift in Sources */,
 				AAE037331F003A930059704A /* AppDelegate.swift in Sources */,
 				AAE037381F003A930059704A /* PodPlayer.xcdatamodeld in Sources */,
+				AAE037491F003C7F0059704A /* SWXMLHash+TypeConversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
